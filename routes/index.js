@@ -18,6 +18,7 @@ router.get('/yelp', function(req, res, next) {
 
   var results = yelp.search({term: "food", location: "Montreal"}, function(error, data) {
 	  console.log(error);
+    res.header('Access-Control-Allow-Origin', '*');
     res.send(data);
 	  // console.log(data);
 	  // res.render('yelp', { title: 'Food in Montreal', name: "owner", yelp: data.businesses.length});
