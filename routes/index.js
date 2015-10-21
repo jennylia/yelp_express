@@ -16,7 +16,7 @@ router.get('/', function(req, res, next) {
 
 router.get('/yelp', function(req, res, next) {
 
-  var results = yelp.search({term: "food", location: "Montreal"}, function(error, data) {
+  var results = yelp.search({term: "food", location: "Port Coquitlam"}, function(error, data) {
 	  console.log(error);
     res.header('Access-Control-Allow-Origin', '*');
     res.send(data);
