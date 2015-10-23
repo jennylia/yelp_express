@@ -1,0 +1,4 @@
+22 Oct 15:26:32 - [33m[nodemon] 1.7.3[39m
+22 Oct 15:26:32 - [33m[nodemon] to restart at any time, enter `rs`[39m
+22 Oct 15:26:32 - [33m[nodemon] watching: *.*[39m
+22 Oct 15:26:32 - [32m[nodemon] starting `node ./bin/www`[39m
